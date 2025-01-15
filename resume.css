@@ -19,3 +19,11 @@ body {
 h1 {
     font-weight: bold;
 }
+
+#top-heading{
+    margin-top:20px;
+}
+
+.fieldOfStudy{
+    font-style: italic;
+}
