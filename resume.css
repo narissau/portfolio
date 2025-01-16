@@ -30,7 +30,17 @@ h1 {
     font-style: italic;
 }
 
-.top-row-section{
+.section-one, .section-two{
+    margin-top: 20px;
+    margin-bottom:10px;
     border-bottom: 2px solid black;
     width:90%;
+}
+
+.company{
+    font-weight: bold;
+}
+
+.position{
+    font-style: italic;
 }
