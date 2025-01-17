@@ -30,7 +30,7 @@ h1 {
     font-style: italic;
 }
 
-.section-one, .section-two{
+.section-one, .section-two, .section-three{
     margin-top: 20px;
     margin-bottom:10px;
     border-bottom: 2px solid black;
@@ -41,6 +41,7 @@ h1 {
     font-weight: bold;
 }
 
-.position{
+.position, .position-length{
     font-style: italic;
 }
+
