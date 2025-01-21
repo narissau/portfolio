@@ -103,3 +103,7 @@ a:hover {
         margin-bottom: 15px;
     }
 }
+
+body {
+    background: linear-gradient(to bottom, azure, rgb(177, 218, 231));
+}
