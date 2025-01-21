@@ -72,21 +72,21 @@ footer {
     color: black;
 }
 
-a:hover {
-    color: darkblue;
-    text-decoration: underline;
+a:hover{
+    font-size: larger;
+    transition: 0.2s ease-in-out;
 }
 
-.company:hover {
-    color: gray;
-    text-shadow: 1px 1px 2px gray;
+/* .company:hover {
+    color: D3D2C7;
+    text-shadow: 1px 1px 2px D3D2C7;
 }
 
 .position:hover {
     font-style: normal;
     font-weight: bold;
-    color:gray;
-}
+    color:D3D2C7;
+} */
 
 .section-one:hover,
 .section-two:hover,
