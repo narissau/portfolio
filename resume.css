@@ -1,14 +1,14 @@
 .name {
     text-align: center;
-    border-top: 4px solid #161925;
-    border-bottom: 4px solid #161925;
-    /* font-weight: bold; */
+    /* border-top: 4px solid #35605A;
+    border-bottom: 4px solid #35605A; */
+    font-weight: bold;
     margin-top: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
     width: 100%;
-    color: white;
-    background-color: #161925;
+    color: black;
+    background-color: #D3D2C7;
 }
 
 .row {
@@ -60,7 +60,7 @@ h1 {
 }
 
 footer {
-    background-color: #161925;
+    background-color: #D3D2C7;
     height: 5em;
     text-align: center;
     display: flex;
@@ -69,7 +69,7 @@ footer {
 }
 
 .footer-content {
-    color: white;
+    color: black;
 }
 
 a:hover {
@@ -92,7 +92,8 @@ a:hover {
 .section-two:hover,
 .section-three:hover,
 .section-four:hover,
-.container-fluid:hover {
+.container-fluid:hover,
+footer:hover {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
     transition: box-shadow 0.3s ease-in-out;
 }
@@ -105,5 +106,5 @@ a:hover {
 }
 
 body {
-    background: linear-gradient(to bottom, azure, #869D96);
+    background: linear-gradient(to bottom, white, #D3D2C7);
 }
