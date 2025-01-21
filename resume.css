@@ -1,14 +1,14 @@
 .name {
     text-align: center;
-    border-top: 4px solid black;
-    border-bottom: 4px solid black;
+    border-top: 4px solid #161925;
+    border-bottom: 4px solid #161925;
     /* font-weight: bold; */
     margin-top: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
     width: 100%;
     color: white;
-    background-color: black;
+    background-color: #161925;
 }
 
 .row {
@@ -40,7 +40,7 @@ h1 {
 .section-three {
     margin-top: 20px;
     /* margin-bottom:10px; */
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #161925;
     width: 90%;
 }
 
@@ -60,7 +60,7 @@ h1 {
 }
 
 footer {
-    background-color: black;
+    background-color: #161925;
     height: 5em;
     text-align: center;
     display: flex;
@@ -105,5 +105,5 @@ a:hover {
 }
 
 body {
-    background: linear-gradient(to bottom, azure, rgb(177, 218, 231));
+    background: linear-gradient(to bottom, azure, #869D96);
 }
