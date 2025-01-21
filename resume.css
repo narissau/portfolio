@@ -92,7 +92,7 @@ a:hover{
 .section-two:hover,
 .section-three:hover,
 .section-four:hover,
-.container-fluid:hover,
+.name:hover,
 footer:hover {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
     transition: box-shadow 0.3s ease-in-out;
@@ -107,4 +107,20 @@ footer:hover {
 
 body {
     background: linear-gradient(to bottom, white, #D3D2C7);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container a.navbar-brand {
+    margin: 0 20px; /* Add horizontal spacing between links */
+    font-size: 1.1em; /* Optional: Make the links larger for better readability */
+    text-decoration: none; /* Ensure links are clean */
+    color: black; /* Ensure links are visible */
+}
+
+.container a.navbar-brand:hover {
+    text-decoration: underline;
+    transition: 0.3s ease;
 }
