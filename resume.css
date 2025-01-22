@@ -1,4 +1,4 @@
-.name {
+.top {
     text-align: center;
     /* border-top: 4px solid #35605A;
     border-bottom: 4px solid #35605A; */
@@ -11,11 +11,12 @@
     background-color: #D3D2C7;
 }
 
+
 .row {
     /* padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px; */
-    width: 90%;
+    width: 100%;
 }
 
 body {
