@@ -9,6 +9,10 @@
     width: 100%;
     color: black;
     background-color: #D3D2C7;
+    height:9em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -93,7 +97,7 @@ a:hover{
 .section-two:hover,
 .section-three:hover,
 .section-four:hover,
-.name:hover,
+.top:hover,
 footer:hover {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
     transition: box-shadow 0.3s ease-in-out;
