@@ -247,3 +247,8 @@ body {
     border: 2px solid #89876C !important;
     text-decoration: none;
 }
+
+.disclaimer{
+    font-style: italic;
+    font-size: smaller;
+}
