@@ -4,6 +4,8 @@
 :root {
     /* --bs-primary: #F7EFE8 !important; */
     --bs-primary: #D3D2C7 !important;
+    --bs-secondary: #504E3F !important;
+    --bs-tertiary: #E4E3DD !important;
 }
 
 body {
@@ -20,7 +22,7 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
     /* width: 100%; */
-    color: black;
+    color: var(--bs-secondary);
     background-color: white;
     border-top: 4px solid var(--bs-primary);
     border-bottom: 4px solid var(--bs-primary);
@@ -50,7 +52,7 @@ h1 {
 .section-two,
 .section-three {
     margin-top: 20px;
-    border-bottom: 2px solid #161925;
+    border-bottom: 2px solid var(--bs-secondary);
     width: 90%;
 }
 
@@ -79,7 +81,7 @@ footer {
 }
 
 .footer-content {
-    color: black;
+    color: var(--bs-secondary);
 }
 
 /* a:hover {
@@ -111,7 +113,7 @@ html {
     margin: 0 20px;
     font-size: 1.1em;
     text-decoration: none;
-    color: black;
+    color: var(--bs-secondary);
 }
 
 .container a.navbar-brand:hover {
@@ -124,7 +126,7 @@ body {
     background: linear-gradient(to bottom, white, var(--bs-primary));
     margin: 0;
     padding: 0;
-    color: #161925;
+    color: var(--bs-secondary);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -138,7 +140,7 @@ body {
     margin: 0 15px;
     font-size: 1.1em;
     text-decoration: none;
-    color: black;
+    color: var(--bs-secondary);
 }
 
 .navbar a.navbar-brand:hover {
@@ -149,7 +151,7 @@ body {
 }
 
 .name-section {
-    background-color: white;
+    background-color: var(--bs-tertiary);
     padding: 100px 0;
     text-align: center;
     margin-bottom: 30px;
@@ -232,8 +234,8 @@ body {
 }
 
 .btn-custom {
-    background-color: #89876C !important;
-    color: #E4E3DD !important;
+    background-color: var(--bs-secondary) !important;
+    color: var(--bs-tertiary) !important;
     border: 2px solid var(--bs-primary);
     padding: 10px 20px;
     border-radius: 5px;
@@ -245,9 +247,9 @@ body {
 }
 
 .btn-custom:hover {
-    background-color: #E4E3DD !important;
+    background-color: var(--bs-tertiary) !important;
     color: #89876C !important;
-    border: 2px solid #89876C !important;
+    border: 2px solid var(--bs-secondary) !important;
     text-decoration: none;
 }
 
