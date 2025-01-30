@@ -8,6 +8,12 @@
     --bs-tertiary: #E4E3DD !important;
 }
 
+.dark-mode{
+    --bs-primary: #504E3F !important;
+    --bs-secondary: #D3D2C7 !important;
+    --bs-tertiary: #E4E3DD !important;
+}
+
 body {
     font-family: 'Lora', serif;
     background: linear-gradient(to bottom, white, var(--bs-primary));
@@ -22,7 +28,7 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
     /* width: 100%; */
-    color: var(--bs-secondary);
+    color: var(--bs-secondary) !important;
     background-color: white;
     border-top: 4px solid var(--bs-primary);
     border-bottom: 4px solid var(--bs-primary);
@@ -126,7 +132,7 @@ body {
     background: linear-gradient(to bottom, white, var(--bs-primary));
     margin: 0;
     padding: 0;
-    color: var(--bs-secondary);
+    color: var(--bs-secondary) !important;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
