@@ -1,17 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 
+/* Default Light Mode */
 :root {
-    /* --bs-primary: #F7EFE8 !important; */
     --bs-primary: #D3D2C7 !important;
     --bs-secondary: #504E3F !important;
     --bs-tertiary: #E4E3DD !important;
+    --bg-gradient-start: white;
+    --bg-gradient-end: var(--bs-primary);
+    --text-color: var(--bs-secondary);
 }
 
-.dark-mode{
-    --bs-primary: #504E3F !important;
-    --bs-secondary: #D3D2C7 !important;
-    --bs-tertiary: #E4E3DD !important;
+/* Dark Mode */
+.dark-mode {
+    --bs-primary: #2E2D24 !important;
+    --bs-secondary: #E4E3DD !important;
+    --bs-tertiary: #504E3F !important;
+    --bg-gradient-start: var(--bs-primary) !important;
+    --bg-gradient-end: var(--bs-tertiary) !important;
+    --text-color: #E4E3DD !important;
+}
+
+body {
+    background: linear-gradient(to bottom, var(--bg-gradient-start), var(--bg-gradient-end));
+    color: var(--text-color);
+}
+
+.navbar,
+.footer {
+    background-color: var(--bs-primary);
+}
+
+.navbar a,
+.footer-content {
+    color: var(--text-color);
 }
 
 body {
@@ -139,7 +161,7 @@ body {
 }
 
 .navbar {
-    background-color: var(--bs-primary);
+    background-color: var(--bs-primary) !important;
 }
 
 .navbar a.navbar-brand {
