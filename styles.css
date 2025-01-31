@@ -241,6 +241,26 @@ footer:hover {
     text-decoration: none;
 }
 
+#back-to-top{
+    background-color: var(--bs-secondary) !important;
+    color: var(--bs-tertiary) !important;
+    border: 2px solid var(--bs-primary);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#back-to-top:hover{
+    background-color: var(--bs-tertiary) !important;
+    color: #89876C !important;
+    border: 2px solid var(--bs-secondary) !important;
+    text-decoration: none;
+}
+
 
 /* About Me Section */
 
@@ -305,3 +325,4 @@ html {
     font-style: italic;
     font-size: smaller;
 }
+
