@@ -209,6 +209,17 @@ footer:hover {
     border-bottom: 2px solid var(--bs-tertiary)
 }
 
+.center-wrapper {
+    display: flex;
+    justify-content: center;
+    /* horizontal centering */
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
 .project-img {
     width: 100%;
     max-width: 800px;
@@ -232,6 +243,10 @@ footer:hover {
     font-weight: bold;
     display: inline-block;
     transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#darkModeToggle{
+    margin-left: auto;
 }
 
 .btn-custom:hover {
